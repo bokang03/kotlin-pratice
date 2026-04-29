@@ -1,13 +1,6 @@
 package com.back.ch7
 
-class Person {
-
-    var name: String = ""
-
-    constructor(name: String) {
-        this.name = name
-    }
-
+class Person(val name: String) {
     fun greet() {
         println("Hello, my name is $name")
     }
