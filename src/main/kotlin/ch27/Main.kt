@@ -1,5 +1,7 @@
 package com.back.ch27
 
+import jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyles
+
 fun main() {
 
     val num = 5
@@ -13,6 +15,15 @@ fun main() {
         this * 2 + 10
     }
 
-    println(rst)
+//    println(rst)
+
+//    val post = Post("Kotlin", "Kotlin is great!", "John Doe")
+//    val postDto = post.run{
+//        PostDto(
+//            title = title,
+//            content = content,
+//            author = author
+//        )
+//    }
 
 }
