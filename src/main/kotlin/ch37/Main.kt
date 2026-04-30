@@ -16,14 +16,6 @@ class Person {
 
         } // Setter 제공 (쓰기 가능)
 
-    fun setName(name: String) {
-        if (name != "") { // 빈 문자열이 아닌 경우에만 값 설정
-            _name = name
-        } else {
-            throw IllegalArgumentException("이름은 빈 문자열일 수 없습니다.")
-        }
-    }
-
 //    var name: String
 //        get() = throw IllegalAccessException("읽을 수 없습니다.") // Getter 호출 시 예외 발생
 //        set(value) { _name = value } // Setter 제공 (쓰기 가능)
